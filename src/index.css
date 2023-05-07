@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: Nastaliq;
+  src: url("./assets/fonts/IranNastaliq.ttf") format("TRUETYPE");
+}
+
+@font-face {
+  font-family: Yekan;
+  src: url("./assets/fonts/BYEKAN_0.TTF") format("TRUETYPE");
+}
+
+body {
+  font-family: Yekan;
+  direction: rtl;
+  background:linear-gradient(to right,#111,#111222);
+  overflow-x: hidden;
+}
+
+.NastaliqFont {
+  font-family: Nastaliq;
+}
